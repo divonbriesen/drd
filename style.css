@@ -141,6 +141,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin: 22px auto 0;
   font-size: 19px;
   color: var(--ink-2);
+  text-align: left;
 }
 
 .hero-note {
@@ -149,6 +150,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   font-size: 14.5px;
   color: var(--ink-3);
   font-style: italic;
+  text-align: left;
 }
 
 /* ---------- Layout: sticky TOC + content ---------- */
