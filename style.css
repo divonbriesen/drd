@@ -140,7 +140,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 
 .hero-sub {
-  max-width: 62ch;
+  max-width: 92ch;
   margin: 22px auto 0;
   font-size: 19px;
   color: var(--ink-2);
