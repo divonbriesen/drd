@@ -107,7 +107,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 .bridge-svg .cable { stroke: var(--ink-3); stroke-width: 1.6; fill: none; opacity: var(--span-op); }
 .bridge-svg .tower { fill: var(--ink-3); opacity: 0.5; }
-.bridge-svg .deck { stroke: var(--line-strong); stroke-width: 2; }
+.bridge-svg .deck { stroke: var(--line-strong); stroke-width: 2; fill: none; }
 .bridge-svg .keystone { fill: var(--brass); }
 
 .hero-inner {
