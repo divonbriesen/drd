@@ -147,14 +147,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   text-align: left;
 }
 
-.hero-note {
-  max-width: 56ch;
-  margin: 18px auto 0;
-  font-size: 14.5px;
-  color: var(--ink-3);
-  font-style: italic;
-  text-align: left;
-}
 
 /* ---------- Layout: sticky TOC + content ---------- */
 
@@ -387,6 +379,11 @@ footer p {
   color: var(--ink-3);
   font-size: 13.5px;
   line-height: 1.6;
+}
+.footer-note {
+  max-width: 92ch;
+  margin-top: 10px;
+  font-style: italic;
 }
 
 /* ---------- Reference glossary ---------- */
