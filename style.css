@@ -467,6 +467,45 @@ button.ref:focus-visible {
 
 .scroller { overflow-x: auto; }
 
+/* ---------- Page controls (theme / view-without-css) ---------- */
+
+.page-controls {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 80;
+  display: flex;
+  gap: 8px;
+}
+
+.control-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: 100px;
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background 120ms, color 120ms, border-color 120ms;
+}
+.control-btn:hover { background: var(--surface-2); color: var(--ink); }
+.control-btn:focus-visible { outline: 2px solid var(--steel); outline-offset: 2px; }
+.control-btn svg { width: 16px; height: 16px; }
+
+.control-btn .icon-sun { display: none; }
+.control-btn.is-dark .icon-moon { display: none; }
+.control-btn.is-dark .icon-sun { display: block; }
+
+.control-btn.is-active {
+  background: var(--brass);
+  border-color: var(--brass);
+  color: var(--ground);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
