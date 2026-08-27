@@ -28,15 +28,12 @@
       </p>
     </div>
 
-    <svg class="bridge-svg" viewBox="0 0 1180 170" preserveAspectRatio="none" aria-hidden="true">
-      <rect class="tower" x="150" y="10" width="14" height="150"></rect>
-      <rect class="tower" x="1016" y="10" width="14" height="150"></rect>
-      <path class="cable" d="M 0 160 Q 157 10 314 160"></path>
-      <path class="cable" d="M 314 160 Q 471 10 628 160"></path>
-      <path class="cable" d="M 628 160 Q 785 10 942 160"></path>
-      <path class="cable" d="M 942 160 Q 1023 90 1180 160"></path>
-      <line class="deck" x1="0" y1="160" x2="1180" y2="160"></line>
-      <circle class="keystone" cx="590" cy="160" r="4"></circle>
+    <svg class="bridge-svg" viewBox="0 0 1180 200" preserveAspectRatio="none" aria-hidden="true">
+      <path class="cable" d="M 0 150 Q 75 55 150 12 Q 370 148 590 130 Q 810 148 1030 12 Q 1105 55 1180 150"></path>
+      <polygon class="tower" points="138,6 162,6 166,190 134,190"></polygon>
+      <polygon class="tower" points="1018,6 1042,6 1046,190 1014,190"></polygon>
+      <line class="deck" x1="0" y1="150" x2="1180" y2="150"></line>
+      <circle class="keystone" cx="590" cy="130" r="4"></circle>
     </svg>
   </div>
 </header>
@@ -448,63 +445,93 @@
   var GLOSSARY = {
     "nces": {
       title: "NCES",
-      body: "National Center for Education Statistics — the federal agency that sets the standard definitions used across higher ed, including the distinction between an institution's retention rate and a student's persistence."
+      body: "National Center for Education Statistics — the federal agency that sets the standard definitions used across higher ed, including the distinction between an institution's retention rate and a student's persistence.",
+      link: "https://en.wikipedia.org/wiki/National_Center_for_Education_Statistics",
+      linkLabel: "Wikipedia"
     },
     "theory-of-constraints": {
       title: "Theory of Constraints",
-      body: "A management framework built on one idea: a system's output is capped by its single tightest bottleneck. Fixing anything else first is wasted effort until that one constraint is addressed."
+      body: "A management framework built on one idea: a system's output is capped by its single tightest bottleneck. Fixing anything else first is wasted effort until that one constraint is addressed.",
+      link: "https://en.wikipedia.org/wiki/Theory_of_constraints",
+      linkLabel: "Wikipedia"
     },
     "five-focusing-steps": {
       title: "Five Focusing Steps",
-      body: "Eliyahu Goldratt's method for applying the Theory of Constraints, in order: identify the constraint, exploit it (get the most from it as-is), subordinate everything else to that decision, elevate it (invest to remove it), then repeat with whatever constraint appears next."
+      body: "Eliyahu Goldratt's method for applying the Theory of Constraints, in order: identify the constraint, exploit it (get the most from it as-is), subordinate everything else to that decision, elevate it (invest to remove it), then repeat with whatever constraint appears next.",
+      link: "https://en.wikipedia.org/wiki/The_Goal_(novel)",
+      linkLabel: "Wikipedia — The Goal"
     },
     "jit": {
       title: "Just-In-Time",
-      body: "A production philosophy, originating at Toyota, of moving material or work only when the next step actually needs it — instead of building up queues and inventory that hide problems in the process."
+      body: "A production philosophy, originating at Toyota, of moving material or work only when the next step actually needs it — instead of building up queues and inventory that hide problems in the process.",
+      link: "https://en.wikipedia.org/wiki/Just-in-time_manufacturing",
+      linkLabel: "Wikipedia"
     },
     "hospitality": {
       title: "Unreasonable Hospitality",
-      body: "Will Guidara's book about Eleven Madison Park, a fine-dining restaurant that became the best in the world partly by going far beyond expected service for individual guests. The open question here is whether a gesture-based philosophy built for a few dozen covers a night scales to an open-access institution serving thousands."
+      body: "Will Guidara's book about Eleven Madison Park, a fine-dining restaurant that became the best in the world partly by going far beyond expected service for individual guests. The open question here is whether a gesture-based philosophy built for a few dozen covers a night scales to an open-access institution serving thousands.",
+      link: "https://en.wikipedia.org/wiki/Will_Guidara",
+      linkLabel: "Wikipedia — Will Guidara"
     },
     "fuller": {
       title: "Buckminster Fuller",
-      body: "Architect, systems theorist, and inventor of the geodesic dome, known for arguing that many of society's structures — including how education is organized into rigid terms — are inherited defaults, not necessities."
+      body: "Architect, systems theorist, and inventor of the geodesic dome, known for arguing that many of society's structures — including how education is organized into rigid terms — are inherited defaults, not necessities.",
+      link: "https://en.wikipedia.org/wiki/Buckminster_Fuller",
+      linkLabel: "Wikipedia"
     },
     "iabi": {
       title: "If Anyone Builds It, Everyone Dies",
-      body: "A 2026 book by Eliezer Yudkowsky and Nate Soares arguing that building sufficiently advanced AI under current safety practices is likely to end badly for humanity. Contested, but taken seriously by a wide range of AI researchers."
+      body: "A 2025 book by Eliezer Yudkowsky and Nate Soares arguing that building sufficiently advanced AI under current safety practices is likely to end badly for humanity. Contested, but taken seriously by a wide range of AI researchers.",
+      link: "https://en.wikipedia.org/wiki/If_Anyone_Builds_It,_Everyone_Dies",
+      linkLabel: "Wikipedia"
     },
     "dogfood": {
       title: "Eating Your Own Dog Food",
-      body: "“Dogfooding” — using the product or system you built for others, yourself, so you feel its friction first-hand instead of hearing about it secondhand."
+      body: "“Dogfooding” — using the product or system you built for others, yourself, so you feel its friction first-hand instead of hearing about it secondhand.",
+      link: "https://en.wikipedia.org/wiki/Eating_your_own_dog_food",
+      linkLabel: "Wikipedia"
     },
     "neoed": {
       title: "NeoEd",
-      body: "Third-party HR and training-management software used for staff and faculty training — separate from, and in addition to, the LMS the college requires every student to use."
+      body: "Third-party HR and training-management software used for staff and faculty training — separate from, and in addition to, the LMS the college requires every student to use. No independent encyclopedia entry exists yet, so this points to the vendor's own site.",
+      link: "https://www.neoed.com/",
+      linkLabel: "NeoEd — official site"
     },
     "prices-law": {
       title: "Price's Law",
-      body: "In any collaborative group, roughly the square root of the total contributors produce about half the output. In a group of 100, about 10 people carry half the load — and it gets more lopsided, not less, as the group grows."
+      body: "In any collaborative group, roughly the square root of the total contributors produce about half the output. In a group of 100, about 10 people carry half the load — and it gets more lopsided, not less, as the group grows.",
+      link: "https://en.wikipedia.org/wiki/Price%27s_law",
+      linkLabel: "Wikipedia"
     },
     "peter-principle": {
       title: "The Peter Principle",
-      body: "People are promoted based on performance in their current role, so competent employees keep climbing until they land in a role they're not good at — and then, because promotion has stopped, they stay there."
+      body: "People are promoted based on performance in their current role, so competent employees keep climbing until they land in a role they're not good at — and then, because promotion has stopped, they stay there.",
+      link: "https://en.wikipedia.org/wiki/Peter_principle",
+      linkLabel: "Wikipedia"
     },
     "pareto-principle": {
       title: "The Pareto Principle",
-      body: "The “80/20 rule” — a large share of effects tend to come from a small share of causes. Originally an observation about land ownership in Italy; now shorthand for finding the small number of root causes behind most of a system's problems."
+      body: "The “80/20 rule” — a large share of effects tend to come from a small share of causes. Originally an observation about land ownership in Italy; now shorthand for finding the small number of root causes behind most of a system's problems.",
+      link: "https://en.wikipedia.org/wiki/Pareto_principle",
+      linkLabel: "Wikipedia"
     },
     "parkinsons-law": {
       title: "Parkinson's Law",
-      body: "Work expands to fill the time available for its completion. A task with a loose deadline reliably takes longer than the same task with a tight one, even though the actual work is identical."
+      body: "Work expands to fill the time available for its completion. A task with a loose deadline reliably takes longer than the same task with a tight one, even though the actual work is identical.",
+      link: "https://en.wikipedia.org/wiki/Parkinson%27s_law",
+      linkLabel: "Wikipedia"
     },
     "goodharts-law": {
       title: "Goodhart's Law",
-      body: "“When a measure becomes a target, it ceases to be a good measure.” Once people are evaluated on a number, they optimize the number — which isn't the same as optimizing the thing the number was supposed to represent."
+      body: "“When a measure becomes a target, it ceases to be a good measure.” Once people are evaluated on a number, they optimize the number — which isn't the same as optimizing the thing the number was supposed to represent.",
+      link: "https://en.wikipedia.org/wiki/Goodhart%27s_law",
+      linkLabel: "Wikipedia"
     },
     "dilbert-principle": {
       title: "The Dilbert Principle",
-      body: "Scott Adams's darker cousin of the Peter Principle: companies sometimes promote their least competent people on purpose, specifically to move them out of roles where the damage they do is visible and costly."
+      body: "Scott Adams's darker cousin of the Peter Principle: companies sometimes promote their least competent people on purpose, specifically to move them out of roles where the damage they do is visible and costly.",
+      link: "https://en.wikipedia.org/wiki/Dilbert_principle",
+      linkLabel: "Wikipedia"
     }
   };
 
@@ -515,11 +542,13 @@
   card.hidden = true;
   card.innerHTML =
     '<button type="button" class="ref-close" aria-label="Close">×</button>' +
-    '<p class="ref-title"></p><p class="ref-body"></p>';
+    '<p class="ref-title"></p><p class="ref-body"></p>' +
+    '<a class="ref-link" target="_blank" rel="noopener noreferrer"></a>';
   document.body.appendChild(card);
 
   var titleEl = card.querySelector(".ref-title");
   var bodyEl = card.querySelector(".ref-body");
+  var linkEl = card.querySelector(".ref-link");
   var closeBtn = card.querySelector(".ref-close");
   var activeBtn = null;
 
@@ -547,6 +576,13 @@
     if (!entry) return;
     titleEl.textContent = entry.title;
     bodyEl.textContent = entry.body;
+    if (entry.link) {
+      linkEl.href = entry.link;
+      linkEl.textContent = (entry.linkLabel || "Read more") + " ↗";
+      linkEl.hidden = false;
+    } else {
+      linkEl.hidden = true;
+    }
     card.hidden = false;
     activeBtn = btn;
     btn.setAttribute("aria-expanded", "true");

@@ -434,6 +434,19 @@ button.ref:focus-visible {
   color: var(--ink-2);
   margin: 0;
 }
+.ref-card .ref-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--steel-ink);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--steel-ink) 40%, transparent);
+}
+.ref-card .ref-link:hover { border-bottom-color: var(--steel-ink); }
+.ref-card .ref-link[hidden] { display: none; }
 .ref-card .ref-close {
   position: absolute;
   top: 6px;
