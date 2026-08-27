@@ -98,6 +98,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     var(--ground);
 }
 
+.hero .wrap {
+  padding: 0 8px;
+}
+
 .bridge-svg {
   display: block;
   width: 100%;
@@ -111,7 +115,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 .hero-inner {
   position: relative;
-  padding: 76px 0 40px;
+  padding: 23px 0 40px;
   text-align: center;
 }
 
