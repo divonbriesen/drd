@@ -93,7 +93,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .hero {
   position: relative;
   overflow: hidden;
-  border-bottom: 1px solid var(--line);
   background:
     radial-gradient(1200px 400px at 50% -120px, color-mix(in srgb, var(--steel) 14%, transparent), transparent 70%),
     var(--ground);
